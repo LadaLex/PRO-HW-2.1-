@@ -12,7 +12,7 @@ class Student(Human):
         self.sex = sex
         self.nationality = nationality
     def __str__(self):
-        return f"{super().__str__()}, {self.gender}, {self.citizenship}"
+        return f"{super().__str__()}, {self.sex}, {self.nationality}"
 
 
 class Group:
